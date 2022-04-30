@@ -1,9 +1,8 @@
 # Ask user for name
-from types import CoroutineType
-
 
 name = input("What is your name? ")
 print(f"{name} is a very nice name!")
+
 # Ask user for age
 age = input (f"{name} what is your age? ")
 print(f"Well, {name}, it's nice to know that you are {age} years old.")
